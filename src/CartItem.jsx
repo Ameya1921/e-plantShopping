@@ -14,7 +14,7 @@ const CartItem = ({ onContinueShopping }) => {
             Otherwise, NaN returned.
             Improve in future: Use regex to remove all possible currency symbols?
         */
-        return parseInt(itemCost.replace('$', ''), 10);
+        return parseInt(itemCost.replace('Rs', ''), 10);
     };
 
     // Calculate total amount for all products in the cart
