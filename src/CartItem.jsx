@@ -14,7 +14,7 @@ const CartItem = ({ onContinueShopping }) => {
             Otherwise, NaN returned.
             Improve in future: Use regex to remove all possible currency symbols?
         */
-        return parseInt(itemCost.replace('Rs', ''), 10);
+        return parseInt(itemCost.replace('$', ''), 10);
     };
 
     // Calculate total amount for all products in the cart
@@ -70,7 +70,7 @@ const CartItem = ({ onContinueShopping }) => {
 
     return (
         <div className="cart-container">
-            <h2 style={{ color: 'black' }}>Total Cart Amount: Rs{calculateTotalAmount()}</h2>
+            <h2 style={{ color: 'black' }}>Total Cart Amount: ${calculateTotalAmount()}</h2>
             <div>
                 {cart.map(item => (
                     <div className="cart-item" key={item.name}>
