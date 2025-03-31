@@ -277,7 +277,7 @@ function ProductList() {
                         <a href="shoppingreact/nature-reborn-nursery-shopping-cart-app/" style={{ textDecoration: 'none' }}>
                             <div>
                                 <h3 style={{ color: 'white' }}>Nature Reborn Nursery</h3>
-                                <i style={{ color: 'white' }}>Where Green Meets Family</i>
+                                <i style={{ color: 'white' }}>Where Green Meets Serenity</i>
                             </div>
                         </a>
                     </div>
